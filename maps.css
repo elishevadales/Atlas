@@ -1,0 +1,76 @@
+body{
+    background-image: url(images/pexels-nastyasensei-335393.jpg) ;
+    background-position: right;
+    background-size: cover;
+}
+.header .container{
+    background: rgba(255, 255, 255, 0.597);
+}
+.search{
+
+    background: rgb(192, 155, 86);
+
+}
+.recomend{
+
+    min-height: inherit;
+}
+form{
+justify-content: center;
+    min-height: inherit;
+}
+
+.recomend h2{
+    padding: 10px;
+    cursor: pointer;
+
+}
+.form input{
+    min-height: 10px;
+    margin-right: 20px;
+    margin-left: 90px;
+}
+.recomend h2:hover{
+    color: rgb(0, 179, 255);
+}
+.form .button{
+    min-height: 20px;
+}
+
+main{
+    min-height: 500px;
+}
+main .container{
+    background: rgba(255, 255, 255, 0.597);
+}
+main .left{
+    min-height: 500px;
+    width: 50%;
+    padding: 20px;
+}
+main .left .map{
+    border: 5px solid rgb(192, 155, 86);
+}
+main .right{
+align-items: center;
+min-height: 500px;
+width: 50%;
+padding: 20px;
+}
+main .right .flag img{
+    max-width: 150px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+main .right span{
+    cursor: pointer;
+
+}
+main .right span:hover{
+    color: rgb(0, 179, 255);
+}
+
+main .left .map{
+    min-height: 300px;
+}
+

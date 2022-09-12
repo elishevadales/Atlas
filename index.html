@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="maps.css">
+    <title>Document</title>
+    <script defer type="module" src="JS/app.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div>
+            <!-- <h1 class="text-center pt-2 pb-2">Countries Map Project</h1> -->
+            <div class="search">
+                <form id="form" class="d-flex form">
+                    <div class="d-flex recomend h2">
+                        <h2 class="USA">USA</h2>
+                        <h2>|</h2>
+                        <h2 class="ISRAEL">ISRAEL</h2>
+                        <h2>|</h2>
+                        <h2 class="UK">UK</h2>
+                        <h2>|</h2>
+                        <h2 class="FRANCE">FRANCE</h2>
+                        <h2>|</h2>
+                        <h2 class="THAILAND">THAILAND</h2>
+                    </div>
+                    <div class="input d-flex align-items-center">
+                        <input id="input" class="form-control">
+                    </div>
+                    <div class="button d-flex align-items-center">
+                        <button class="btn btn-info">Find</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="container d-flex">
+            <div class="left">
+
+                <div id="map" class="map">
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe width="600" height="500" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=60.17,24.93&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            <a href="https://putlocker-is.org"></a>
+                            <br>
+                            <style>
+                                .mapouter {
+                                    position: relative;
+                                    text-align: right;
+                                    height: 400px;
+                                    width: 100%;
+                                }
+                            </style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+                            <style>
+                                .gmap_canvas {
+                                    overflow: hidden;
+                                    background: none !important;
+                                    height: 400px;
+                                    width:  100%;
+                                }
+                            </style>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right">
+
+                <div id="about" class="about">
+                    <h2>ISRAEL</h2>
+                    <p>POP: 9216900</p>
+                    <p>Region: Asia</p>
+                    <p>Languages: Arabic,Hebrew</p>
+                    <p>Coin: ILS, Israeli new shekel</p>
+                    <p>Capital: Jerusalem</p>
+                    
+                </div>
+                <div class="borders">
+                    <h4 id="borders_title">Borders:</h4>
+                    <p id="borders">EGY,JOR,LBN,PSE,SYR</p>
+                </div>
+                <div id="flag" class="flag">
+                    <img src="https://flagcdn.com/w320/il.png">
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+
+
+</body>
+
+</html>
